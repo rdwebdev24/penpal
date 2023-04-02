@@ -1,0 +1,43 @@
+.LandingWrapper{
+     height: 100vh;
+     background: url('../../assets/landing-img.jpeg') no-repeat 90% 50%;
+     display: flex;
+     align-items: center;
+     position: relative;
+     .landing-info{
+          max-width: 30rem;
+          margin-left: 4rem;
+          color: #383f43;
+          width: 100%;
+     }
+     h1{font-weight: bold;}
+     .landing-btn-div{
+          display: flex;
+          gap: 1rem;
+          button{
+               border: none;
+               color: #fff;
+               border-radius: 5px;
+               padding: 0.5rem 3rem;
+               background-color: #FFC93C;
+               font-weight: bold;
+               font-size: 1.2rem;
+          }
+     }
+     .social-icons{
+          top: 5%;
+          left: 5%;
+          display: flex;
+          gap: 2rem;
+          font-size: 1.5rem;
+          position: absolute;
+          i{
+               cursor: pointer;
+               &:nth-child(1){color: #0072b1 ;}
+               &:nth-child(2){color: #FF0000;}
+               &:nth-child(3){color: #333;}
+               &:nth-child(4){color: #1DA1F2;}
+          }
+     }
+}
+

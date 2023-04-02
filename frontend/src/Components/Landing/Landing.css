@@ -1,0 +1,52 @@
+.LandingWrapper {
+  height: 100vh;
+  background: url("../../assets/landing-img.jpeg") no-repeat 90% 50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.LandingWrapper .landing-info {
+  max-width: 30rem;
+  margin-left: 4rem;
+  color: #383f43;
+  width: 100%;
+}
+.LandingWrapper h1 {
+  font-weight: bold;
+}
+.LandingWrapper .landing-btn-div {
+  display: flex;
+  gap: 1rem;
+}
+.LandingWrapper .landing-btn-div button {
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem 3rem;
+  background-color: #FFC93C;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.LandingWrapper .social-icons {
+  top: 5%;
+  left: 5%;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+  position: absolute;
+}
+.LandingWrapper .social-icons i {
+  cursor: pointer;
+}
+.LandingWrapper .social-icons i:nth-child(1) {
+  color: #0072b1;
+}
+.LandingWrapper .social-icons i:nth-child(2) {
+  color: #FF0000;
+}
+.LandingWrapper .social-icons i:nth-child(3) {
+  color: #333;
+}
+.LandingWrapper .social-icons i:nth-child(4) {
+  color: #1DA1F2;
+}/*# sourceMappingURL=Landing.css.map */
